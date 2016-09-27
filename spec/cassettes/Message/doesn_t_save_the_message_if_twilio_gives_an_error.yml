@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: post
-    uri: https://api.twilio.com/2010-04-01/Accounts/AC032a930f87c16f039f03517e32d6b7ff/Messages.json
+    uri: https://api.twilio.com/2010-04-01/Accounts/<twilio account sid>/Messages.json
     body:
       encoding: UTF-8
       string: Body=hi&From=8562830298&To=11111
@@ -40,11 +40,11 @@ http_interactions:
       Content-Type:
       - application/json
       Date:
-      - Tue, 27 Sep 2016 01:36:26 GMT
+      - Tue, 27 Sep 2016 01:48:53 GMT
       Twilio-Request-Duration:
-      - '0.089'
+      - '0.095'
       Twilio-Request-Id:
-      - RQb32f2a7ccbd54278873a1d844050f7e3
+      - RQ101069d19dd9482ca74994c4ca1f50a9
       X-Powered-By:
       - AT-5000
       X-Shenanigans:
@@ -59,5 +59,5 @@ http_interactions:
         phone number.", "more_info": "https://www.twilio.com/docs/errors/21211", "status":
         400}'
     http_version: 
-  recorded_at: Tue, 27 Sep 2016 01:37:58 GMT
+  recorded_at: Tue, 27 Sep 2016 01:50:25 GMT
 recorded_with: VCR 3.0.3
